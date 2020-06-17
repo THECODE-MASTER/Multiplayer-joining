@@ -23,7 +23,7 @@ this.button.mousePressed( ()=>{
     this.input.hide();
     this.button.hide();
     this.title2.hide();
-    player.name = input.value();
+    player.name = this.input.value();
     playerCount++;
     player.index=playerCount;
     player.update();
